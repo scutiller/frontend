@@ -5,7 +5,7 @@ function App() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("https://neumopymbackend-1.onrender.com/")
+    fetch("https://neumopymbackend.onrender.com")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`Error en la respuesta: ${res.status}`);
